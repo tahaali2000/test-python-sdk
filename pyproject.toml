@@ -3,13 +3,13 @@ build-backend = "setuptools.build_meta"
 requires = ["setuptools>=61.0"]
 [project]
 name = "test-sdk"
-description = "TEST"
-version = "1.2.6"
+description = "TEst"
+version = "1.5.9"
 readme = "README.md"
 requires-python = ">=3.7"
-keywords = ["SDK"]
+keywords = ["sdk"]
 authors = [{name = "taha", email = "taha.ali@apimatic.io"}]
-urls = {Documentation = "https://github.com/tahaali2000/testerrr-python-sdk"}
+urls = {Documentation = "https://packagist.org/profile/"}
 dependencies = ["apimatic-core~=0.2.0, >= 0.2.17", "apimatic-core-interfaces~=0.1.0, >= 0.1.5", "apimatic-requests-client-adapter~=0.1.0, >= 0.1.6"]
 classifiers = []
 [project.optional-dependencies]

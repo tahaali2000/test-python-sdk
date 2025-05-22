@@ -30,7 +30,7 @@ class BaseController(object):
 
     @staticmethod
     def user_agent():
-        return 'PayPal REST API Python SDK, Version: 1.5.9, on OS {os-info}'
+        return 'PayPal REST API Python SDK, Version: 1.2.3, on OS {os-info}'
 
     @staticmethod
     def user_agent_parameters():

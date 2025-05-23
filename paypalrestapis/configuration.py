@@ -58,10 +58,10 @@ class Configuration(HttpClientConfiguration):
                  o_auth_client_id=None, o_auth_client_secret=None,
                  o_auth_token=None, client_credentials_auth_credentials=None):
         if retry_methods is None:
-            retry_methods = ['GET', 'PUT', 'GET', 'PUT']
+            retry_methods = ['GET', 'PUT']
 
         if retry_statuses is None:
-            retry_statuses = [408, 413, 429, 500, 502, 503, 504, 521, 522, 524, 408, 413, 429, 500, 502, 503, 504, 521, 522, 524]
+            retry_statuses = [408, 413, 429, 500, 502, 503, 504, 521, 522, 524]
 
         super().__init__(http_client_instance,
                          override_http_client_configuration, http_call_back,
